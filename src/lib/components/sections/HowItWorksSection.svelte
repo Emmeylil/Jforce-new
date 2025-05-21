@@ -31,7 +31,7 @@
 			text: 'Choose your desired payment method (COD, JumiaPay, etc.)'
 		},
 		{
-			text: 'Input any JForce voucher code if available.'
+			text: 'Input any JForce voucher code if available'
 		},
 		{
 			text: 'Proceed to summary and complete your order.'
