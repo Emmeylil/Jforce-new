@@ -3,6 +3,7 @@
 	import BrandsSection from '$lib/components/sections/BrandsSection.svelte';
 	import FeaturesSection from '$lib/components/sections/FeaturesSection.svelte';
 	import CTASection from '$lib/components/sections/CTASection.svelte';
+	import WhoJoinjforce from '$lib/components/sections/WhyJoinjforce.svelte';
 	import HowItWorksSection from '$lib/components/sections/HowItWorksSection.svelte';
 	import FAQSection from '$lib/components/sections/FAQSection.svelte';
 	import Footer from '$lib/components/sections/Footer.svelte';
@@ -12,6 +13,9 @@
 <BrandsSection />
 <FeaturesSection />
 <CTASection />
+<WhoJoinjforce />
 <HowItWorksSection />
+
 <FAQSection />
+
 <Footer />
