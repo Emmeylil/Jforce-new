@@ -24,7 +24,7 @@
 		<!-- Right: Infused Decorative Image -->
 		<div class="relative h-auto w-full flex-1" in:fade={{ duration: 600 }}>
 			<img
-				src="https://www.semrush.com/lp/affiliate-program/img/main-shape.png?1"
+				src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/jfoce.jpg"
 				alt="Decorative Illustration"
 				class="mx-auto w-full max-w-lg object-contain"
 			/>
