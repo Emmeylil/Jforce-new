@@ -1,4 +1,7 @@
 <script>
+	function goToJoin() {
+		window.open('https://jforce.jumia.com.ng/join', '_blank');
+	}
 	const features = [
 		{
 			title: 'Unlimited Earning Potential: ',
@@ -44,6 +47,7 @@
 		<div class="pt-12 text-center">
 			<button
 				class="rounded-lg bg-orange-500 px-8 py-3 font-semibold text-white transition duration-300 hover:bg-orange-600"
+				on:click={goToJoin}
 			>
 				Join JForce Today
 			</button>

@@ -1,5 +1,8 @@
 <script>
 	import { fade } from 'svelte/transition';
+	function goToJoin() {
+		window.open('https://jforce.jumia.com.ng/join', '_blank');
+	}
 </script>
 
 <section class="bg-[#F5F7FA] px-6 py-20">
@@ -16,6 +19,7 @@
 			</p>
 			<button
 				class="rounded-lg bg-orange-500 px-8 py-3 font-semibold text-white transition duration-300 hover:bg-orange-600"
+				on:click={goToJoin}
 			>
 				Join JForce Today
 			</button>
