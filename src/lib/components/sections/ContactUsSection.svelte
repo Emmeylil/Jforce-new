@@ -62,8 +62,11 @@
 		padding: 1rem;
 		border-radius: 1rem;
 		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-		text-align: center;
 		max-width: 220px;
+		display: flex;
+		flex-direction: column;
+		align-items: center; /* centers children horizontally */
+		text-align: center; /* fallback for text */
 	}
 
 	.contact-container {
@@ -80,8 +83,8 @@
 		border-radius: 50%;
 		object-fit: cover;
 		margin-bottom: 0.5rem;
+		display: block;
 	}
-
 	.icons {
 		display: flex;
 		justify-content: center;
