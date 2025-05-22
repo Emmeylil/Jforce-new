@@ -6,6 +6,7 @@
 	import WhoJoinjforce from '$lib/components/sections/WhyJoinjforce.svelte';
 	import HowItWorksSection from '$lib/components/sections/HowItWorksSection.svelte';
 	import FAQSection from '$lib/components/sections/FAQSection.svelte';
+	import ContactUsSection from '$lib/components/sections/ContactUsSection.svelte';
 	import Footer from '$lib/components/sections/Footer.svelte';
 </script>
 
@@ -17,5 +18,5 @@
 <HowItWorksSection />
 
 <FAQSection />
-
+<ContactUsSection />
 <Footer />
