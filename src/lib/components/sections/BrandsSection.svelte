@@ -11,6 +11,10 @@
 		{
 			name: 'Century',
 			logo: 'https://static.cdnlogo.com/logos/c/36/century.svg'
+		},
+		{
+			name: 'Nivea',
+			logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Nivea_logo.svg'
 		}
 	];
 </script>
