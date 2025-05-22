@@ -24,9 +24,9 @@
 		<!-- Right: Infused Decorative Image -->
 		<div class="relative h-auto w-full flex-1" in:fade={{ duration: 600 }}>
 			<img
-				src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/jfoce.jpg"
+				src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/hero.jpg"
 				alt="Decorative Illustration"
-				class="mx-auto w-full max-w-lg object-contain"
+				class="mx-auto w-full max-w-lg rounded-lg object-contain"
 			/>
 		</div>
 	</div>
