@@ -15,6 +15,10 @@
 		{
 			name: 'Nivea',
 			logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Nivea_logo.svg'
+		},
+		{
+			name: 'Skyrun',
+			logo: 'https://skyrunnigeria.com/image/catalog/NEWLOGO.png'
 		}
 	];
 </script>
