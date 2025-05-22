@@ -1,4 +1,5 @@
 <script>
+	let activeIndex = null;
 	function goToJoin() {
 		window.open('https://jforce.jumia.com.ng/join', '_blank');
 	}
