@@ -5,6 +5,7 @@
 	import CTASection from '$lib/components/sections/CTASection.svelte';
 	import WhoJoinjforce from '$lib/components/sections/WhyJoinjforce.svelte';
 	import HowItWorksSection from '$lib/components/sections/HowItWorksSection.svelte';
+	import Comission from '$lib/components/sections/comission.svelte';
 	import FAQSection from '$lib/components/sections/FAQSection.svelte';
 	import ContactUsSection from '$lib/components/sections/ContactUsSection.svelte';
 	import Footer from '$lib/components/sections/Footer.svelte';
@@ -16,6 +17,7 @@
 <CTASection />
 <WhoJoinjforce />
 <HowItWorksSection />
+<Comission />
 
 <FAQSection />
 <ContactUsSection />
