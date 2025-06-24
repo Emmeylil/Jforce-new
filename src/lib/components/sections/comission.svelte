@@ -5,28 +5,28 @@
 			salesRange: '0-4 sales per quarter',
 			headerColor: 'bg-[#32DEA3] text-white',
 			valueColor: 'bg-[#BFFCE0]',
-			values: ['$200', '$50', '$100', '$200', '$200', '7-day trial', 'After 1st sale']
+			values: ['₦200', '₦ 50', '₦ 100', '₦ 200', '₦ 200', '7-day trial', 'After 1st sale']
 		},
 		{
 			name: 'Silver',
 			salesRange: '5-19 sales per quarter',
 			headerColor: 'bg-[#00A5FF] text-white',
 			valueColor: 'bg-[#D6F0FF]',
-			values: ['$250', '$60', '$110', '$250', '$500', '14-day trial', 'Yes']
+			values: ['₦ 250', '₦60', '₦110', '₦250', '₦500', '14-day trial', 'Yes']
 		},
 		{
 			name: 'Gold',
 			salesRange: '20-49 sales per quarter',
 			headerColor: 'bg-[#FFD000] text-white',
 			valueColor: 'bg-[#FFF2B2]',
-			values: ['$300', '$70', '$130', '$300', '$1000', '-', 'Yes']
+			values: ['₦300', '₦70', '₦130', '₦300', '₦1000', '-', 'Yes']
 		},
 		{
 			name: 'Platinum',
 			salesRange: '50+ sales per quarter',
 			headerColor: 'bg-[#6E34D7] text-white',
 			valueColor: 'bg-[#EAD8FF]',
-			values: ['$350', '$80', '$150', '$350', '$1500', '-', 'Yes']
+			values: ['₦350', '₦80', '₦150', '₦350', '₦1500', '-', 'Yes']
 		}
 	];
 
