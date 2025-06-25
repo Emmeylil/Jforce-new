@@ -1,4 +1,7 @@
 <script>
+	function goToJoin() {
+		window.open('https://jforce.jumia.com.ng/join', '_blank');
+	}
 	const segmentOptions = ['Lagos, Abuja, Ibadan (B2C)', 'Other Cities (B2C)', 'All Cities (B2B)'];
 	let activeSegment = segmentOptions[0];
 
@@ -148,6 +151,14 @@
 			<li>1st payout: 15th - 18th of the month</li>
 			<li>2nd payout: 2nd - 5th of the following month</li>
 		</ul>
+	</div>
+	<div class="mt-12 flex justify-center">
+		<button
+			class="rounded-lg bg-orange-500 px-8 py-3 font-semibold text-white transition duration-300 hover:bg-orange-600"
+			on:click={goToJoin}
+		>
+			Join JForce Today
+		</button>
 	</div>
 </div>
 
