@@ -43,6 +43,7 @@
 
 		<div class="space-y-6">
 			{#each faqs as faq, index}
+				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					class="cursor-pointer rounded-lg border border-gray-300 bg-white p-4 transition hover:shadow-md"
 					on:click={() => toggle(index)}
