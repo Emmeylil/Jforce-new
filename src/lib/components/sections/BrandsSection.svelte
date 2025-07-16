@@ -21,21 +21,39 @@
 			logo: 'https://skyrunnigeria.com/image/catalog/NEWLOGO.png'
 		}
 	];
+
+	// Duplicate for seamless sliding effect
+	const allBrands = [...brands, ...brands];
 </script>
 
-<section class="bg-white py-12">
+<section class="overflow-hidden bg-white py-12">
 	<div class="mx-auto max-w-6xl px-4">
 		<h2 class="mb-6 text-center text-sm font-semibold text-gray-600">Trusted by leading brands</h2>
-		<div
-			class="grid grid-cols-2 items-center justify-items-center gap-6 sm:grid-cols-3 md:grid-cols-5"
-		>
-			{#each brands as brand}
-				<img
-					src={brand.logo}
-					alt={brand.name}
-					class="h-12 w-auto grayscale transition duration-300 ease-in-out hover:grayscale-0"
-				/>
-			{/each}
+		<div class="relative overflow-hidden">
+			<div class="slider-track animate-slide flex whitespace-nowrap">
+				{#each allBrands as brand (brand.name + Math.random())}
+					<img
+						src={brand.logo}
+						alt={brand.name}
+						class="mx-8 h-12 w-auto grayscale transition duration-300 ease-in-out hover:grayscale-0"
+					/>
+				{/each}
+			</div>
 		</div>
 	</div>
 </section>
+
+<style>
+	@keyframes slide {
+		0% {
+			transform: translateX(0%);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
+
+	.animate-slide {
+		animation: slide 20s linear infinite;
+	}
+</style>
