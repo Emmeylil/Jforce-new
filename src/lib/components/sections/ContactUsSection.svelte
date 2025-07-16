@@ -32,6 +32,12 @@
 			email: 'kasimu.mudi@jumia.com',
 			image: 'https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/jforee.jpg'
 		}
+		// {
+		// 	name: 'Olanrewaju Ganiyu',
+		// 	title: 'Head Of Jforce',
+		// 	email: 'olanrewaju.ganiyu@jumia.com',
+		// 	image: 'https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/1667904380391.jpeg'
+		// }
 	];
 </script>
 
