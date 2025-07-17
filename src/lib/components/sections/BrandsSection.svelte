@@ -20,10 +20,7 @@
 			name: 'Reckitt Benckiser',
 			logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Reckitt_logo.svg/419px-Reckitt_logo.svg.png?20231213060844'
 		}, // Wikimedia Commons :contentReference[oaicite:1]{index=1}
-		{
-			name: 'Ecoflow',
-			logo: 'https://ecoflowstore.pk/cdn/shop/files/03_3x_300x300_2x_5e4410f4-1d58-4d03-b243-6df69325025d_300x300@2x.png?v=1747649857'
-		}, // Wikimedia Commons :contentReference[oaicite:1]{index=1}
+		// Wikimedia Commons :contentReference[oaicite:1]{index=1}
 
 		{
 			name: 'Tecno',
@@ -32,6 +29,10 @@
 		{
 			name: 'Infinix',
 			logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Infinix_logo.svg/500px-Infinix_logo.svg.png'
+		},
+		{
+			name: 'Ecoflow',
+			logo: 'https://ecoflowstore.pk/cdn/shop/files/03_3x_300x300_2x_5e4410f4-1d58-4d03-b243-6df69325025d_300x300@2x.png?v=1747649857'
 		} // Wikimedia Commons :contentReference[oaicite:3]{index=3}
 	];
 	const allBrands = [...brands, ...brands];
