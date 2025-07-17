@@ -19,11 +19,11 @@
 		{
 			name: 'Reckitt Benckiser',
 			logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Reckitt_logo.svg/419px-Reckitt_logo.svg.png?20231213060844'
-		},
+		}, // Wikimedia Commons :contentReference[oaicite:1]{index=1}
 		{
 			name: 'Ecoflow',
 			logo: 'https://ecoflowstore.pk/cdn/shop/files/03_3x_300x300_2x_5e4410f4-1d58-4d03-b243-6df69325025d_300x300@2x.png?v=1747649857'
-		},
+		}, // Wikimedia Commons :contentReference[oaicite:1]{index=1}
 
 		{
 			name: 'Tecno',
