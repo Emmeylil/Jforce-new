@@ -22,10 +22,10 @@
 	.video-section {
 		padding: 2rem 1rem; /* Adds vertical and horizontal padding */
 		background: #f9f9f9; /* Light background color for contrast */
-		border-radius: 8px; /* Rounded container edges */
-		max-width: 900px;
+		border-radius: 20px; /* Rounded container edges */
+		max-width: 85%;
 		margin: 2rem auto; /* Center and space from top */
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
 	}
 
 	.section-header {
