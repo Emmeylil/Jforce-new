@@ -7,6 +7,7 @@
 	import HowItWorksSection from '$lib/components/sections/HowItWorksSection.svelte';
 	import Comission from '$lib/components/sections/comission.svelte';
 	import FAQSection from '$lib/components/sections/FAQSection.svelte';
+	import TestimonialsSection from '$lib/components/sections/TestimonialsSection.svelte';
 	import ContactUsSection from '$lib/components/sections/ContactUsSection.svelte';
 	import Footer from '$lib/components/sections/Footer.svelte';
 </script>
@@ -20,5 +21,6 @@
 <Comission />
 
 <FAQSection />
+<TestimonialsSection />
 <ContactUsSection />
 <Footer />
