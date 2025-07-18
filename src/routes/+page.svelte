@@ -9,7 +9,6 @@
 	import FAQSection from '$lib/components/sections/FAQSection.svelte';
 	import TestimonialsSection from '$lib/components/sections/TestimonialsSection.svelte';
 	import ContactUsSection from '$lib/components/sections/ContactUsSection.svelte';
-	import Footer from '$lib/components/sections/Footer.svelte';
 </script>
 
 <HeroSection />
@@ -23,4 +22,3 @@
 <FAQSection />
 <TestimonialsSection />
 <ContactUsSection />
-<Footer />
