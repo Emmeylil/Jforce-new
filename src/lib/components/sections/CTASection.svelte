@@ -11,7 +11,7 @@
 
 <section class="bg-white py-16">
 	<div class="mx-auto max-w-4xl px-6 text-center">
-		<h2 class="mb-8 text-3xl font-bold text-gray-800">Who can become an affiliate?</h2>
+		<h2 class="mb-8 text-3xl font-bold text-gray-800">Who can become a Jforce agent?</h2>
 
 		<ul class="mx-auto max-w-md space-y-4 text-left text-lg text-gray-700">
 			{#each audience as person}
