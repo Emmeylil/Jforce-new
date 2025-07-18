@@ -1,5 +1,6 @@
-<script>
-	let activeIndex = null;
+<script lang="ts">
+	let activeIndex: number | null = null;
+
 	function goToJoin() {
 		window.open('https://jforce.jumia.com.ng/join', '_blank');
 	}
@@ -32,7 +33,7 @@
 		}
 	];
 
-	function toggle(index) {
+	function toggle(index: number) {
 		activeIndex = activeIndex === index ? null : index;
 	}
 </script>
@@ -43,9 +44,9 @@
 
 		<div class="space-y-6">
 			{#each faqs as faq, index}
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<div
-					class="cursor-pointer rounded-lg border border-gray-300 bg-white p-4 transition hover:shadow-md"
+				<button
+					type="button"
+					class="w-full cursor-pointer rounded-lg border border-gray-300 bg-white p-4 text-left transition hover:shadow-md focus:outline-none focus:ring-2 focus:ring-orange-500"
 					on:click={() => toggle(index)}
 				>
 					<div class="flex items-center justify-between">
@@ -55,9 +56,10 @@
 					{#if activeIndex === index}
 						<p class="mt-3 text-gray-700">{faq.answer}</p>
 					{/if}
-				</div>
+				</button>
 			{/each}
 		</div>
+
 		<!-- Centered Button with top padding -->
 		<div class="pt-12 text-center">
 			<button
