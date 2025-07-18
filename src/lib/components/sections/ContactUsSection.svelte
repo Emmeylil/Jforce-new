@@ -32,12 +32,6 @@
 			email: 'kasimu.mudi@jumia.com',
 			image: 'https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/jforee.jpg'
 		}
-		// {
-		// 	name: 'Olanrewaju Ganiyu',
-		// 	title: 'Head Of Jforce',
-		// 	email: 'olanrewaju.ganiyu@jumia.com',
-		// 	image: 'https://ng.jumia.is/cms/0-1-initiatives/jforce/2025/1667904380391.jpeg'
-		// }
 	];
 </script>
 
@@ -48,11 +42,6 @@
 			<h4>{contact.name}</h4>
 			<p>{contact.title}</p>
 			<p>{contact.email}</p>
-			<!-- <div class="icons">
-				<span class="icon">📍</span>
-				<span class="icon">💬</span>
-				<span class="icon">📞</span>
-			</div> -->
 		</div>
 	{/each}
 </div>
@@ -71,8 +60,8 @@
 		max-width: 220px;
 		display: flex;
 		flex-direction: column;
-		align-items: center; /* centers children horizontally */
-		text-align: center; /* fallback for text */
+		align-items: center;
+		text-align: center;
 	}
 
 	.contact-container {
@@ -90,21 +79,6 @@
 		object-fit: cover;
 		margin-bottom: 0.5rem;
 		display: block;
-	}
-	.icons {
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-		margin-top: 1rem;
-	}
-
-	.icon {
-		background-color: #f47c20;
-		color: white;
-		padding: 0.6rem;
-		border-radius: 50%;
-		font-size: 1rem;
-		cursor: pointer;
 	}
 
 	.footer {

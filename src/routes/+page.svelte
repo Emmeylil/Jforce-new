@@ -18,7 +18,6 @@
 <WhoJoinjforce />
 <HowItWorksSection />
 <Comission />
-
 <FAQSection />
 <TestimonialsSection />
 <ContactUsSection />
