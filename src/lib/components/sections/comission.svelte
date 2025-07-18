@@ -127,7 +127,53 @@
 		</table>
 	</div>
 
-	<!-- (rest of layout unchanged) -->
+	<!-- Remaining static sections -->
+	<div class="mt-6 grid gap-4 sm:grid-cols-2">
+		<div class="rounded-xl border border-gray-200 bg-[#F8F8F8] p-4 text-xs sm:text-sm">
+			<h3 class="mb-2 font-semibold">Buckets & Categories</h3>
+			<ul class="list-inside list-disc">
+				<li>
+					<strong>Low:</strong> Phones, Groceries, Appliances, Camera, Computing, Games & Consoles, TV,
+					Tablets
+				</li>
+				<li>
+					<strong>Medium:</strong> Automotive, Books, Events, Babies/Toys/Kids, Cooking, Mobile & Tablet
+					Accessories
+				</li>
+				<li>
+					<strong>High:</strong> Fashion, Health & Beauty, Sport, Fitness, Small Appliances, Hifi & Stereo,
+					DVD
+				</li>
+			</ul>
+		</div>
+		<div class="rounded-xl border border-gray-200 bg-[#F8F8F8] p-4 text-xs sm:text-sm">
+			<h3 class="mb-2 font-semibold">Indirect Commission</h3>
+			<ul class="list-inside list-disc">
+				<li>Fixed at 0.5% across all levels</li>
+				<li>Minimum team sales per month: ₦60,000 completed</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mt-6 rounded-xl border border-gray-200 bg-[#F8F8F8] p-4 text-xs sm:text-sm">
+		<h3 class="mb-2 font-semibold">General Commission Rules</h3>
+		<ol class="list-inside list-decimal">
+			<li>
+				Consultants must place minimum orders worth ₦15,000 delivered final twice a month to be
+				eligible.
+			</li>
+			<li>Commissions are paid only on items with "COMPLETED" status (15 days after delivery).</li>
+			<li>No commission on FLASH sales items.</li>
+		</ol>
+	</div>
+
+	<div class="mt-4 rounded-xl border border-gray-200 bg-[#F8F8F8] p-4 text-xs sm:text-sm">
+		<strong>Payout Dates:</strong>
+		<ul class="list-inside list-disc">
+			<li>1st payout: 15th - 18th of the month</li>
+			<li>2nd payout: 2nd - 5th of the following month</li>
+		</ul>
+	</div>
 	<div class="mt-12 flex justify-center">
 		<button
 			class="rounded-lg bg-orange-500 px-8 py-3 font-semibold text-white transition duration-300 hover:bg-orange-600"
