@@ -5,7 +5,7 @@
 		'Sales Enthusiasts',
 		'Entrepreneurs & Business Owners',
 		'Social Media Influencers',
-		'Anyone passionate about digital marketing'
+		'Anyone passionate about making extra money'
 	];
 </script>
 

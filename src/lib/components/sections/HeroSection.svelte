@@ -10,7 +10,7 @@
 		<!-- Left: Text Content -->
 		<div class="flex-1 text-center md:text-left" in:fade={{ duration: 600 }}>
 			<h1 class="mb-6 text-4xl font-bold leading-tight text-gray-800 md:text-5xl">
-				Make Money Online by joining Jforce<br class="hidden md:block" />
+				Make Money Online by Joining Jforce<br class="hidden md:block" />
 				as a Sales Consultant
 			</h1>
 			<p class="mb-8 text-lg text-gray-600 md:text-xl">
