@@ -1,5 +1,5 @@
 <script>
-	export let videoId = 'zpZC4eTyn18'; // Change to any YouTube video ID
+	export let videoId = 'aIbDDBcI2WQ'; // Change to any YouTube video ID
 </script>
 
 <section class="video-section">
