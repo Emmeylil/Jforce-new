@@ -46,8 +46,6 @@
 	<div class="mx-auto max-w-4xl">
 		<h2 class="mb-8 text-center text-3xl font-bold text-gray-800">How to place your first order</h2>
 
-		<p class="mb-6 text-center font-semibold text-gray-700">Now that you have joined:</p>
-
 		<div class="space-y-6">
 			{#each steps as step, index}
 				<div class="rounded-md border border-gray-300 bg-gray-50 p-4 shadow-sm">
