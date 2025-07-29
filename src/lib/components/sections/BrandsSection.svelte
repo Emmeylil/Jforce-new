@@ -5,7 +5,6 @@
 		{ name: 'Adidas', logo: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg' },
 		{ name: 'Century', logo: 'https://static.cdnlogo.com/logos/c/36/century.svg' },
 		{ name: 'Nivea', logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Nivea_logo.svg' },
-		{ name: 'Skyrun', logo: 'https://skyrunnigeria.com/image/catalog/NEWLOGO.png' },
 
 		// Jumia Partner Brands with updated URLs
 		{
