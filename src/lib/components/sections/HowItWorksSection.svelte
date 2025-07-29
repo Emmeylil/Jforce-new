@@ -10,7 +10,7 @@
 			text: 'Go to your just downloaded app or the Jumia homepage'
 		},
 		{
-			text: 'Log into your Jumia account with your JForce details. Purchases must be made through this account...'
+			text: 'Log into your Jumia account with your JForce details. Purchases must be made through this account.'
 		},
 		{
 			text: 'Search here for the product you want or check from categories.'
