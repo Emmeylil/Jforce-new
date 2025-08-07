@@ -47,8 +47,29 @@
 </div>
 
 <div class="footer">
-	<p>For more information visit <span class="button">JFORCE</span></p>
-	<p>Join us on our <span class="button">FACEBOOK</span> social media handles</p>
+	<p>
+		For more information visit
+		<a
+			href="https://www.jumia.com.ng/sp-jforce/"
+			class="button"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			JFORCE
+		</a>
+	</p>
+	<p>
+		Join us on our
+		<a
+			href="https://web.facebook.com/jforcenigeria"
+			class="button"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			FACEBOOK
+		</a>
+		social media handles
+	</p>
 </div>
 
 <style>
